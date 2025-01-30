@@ -29,14 +29,14 @@ const Navbar = () => {
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
-          <Link to="/home" className="nav-logo">
+          <Link to="/" className="nav-logo">
             IntelliChat
             {/* <FontAwesomeIcon icon={Icons.fax} size="6px" /> */}
           </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/home"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
@@ -64,16 +64,7 @@ const Navbar = () => {
                 Contact Us
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/login"
-                activeClassName="active"
-                className="nav-links"
-                onClick={signOutHandler}
-              >
-                {isSignOut === true ? "SignIn or LogIn" : "Sign Out"}
-              </Link>
-            </li>
+            
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? Icons.faTimes : Icons.faBars} />
