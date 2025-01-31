@@ -34,8 +34,9 @@ font-family: 'Ubuntu Mono', monospace;
 .container .header {
   background-color: #edf2f7;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   padding: 10px;
+  padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   align-items: center;
 }
@@ -54,3 +55,9 @@ font-family: 'Ubuntu Mono', monospace;
   color: #0d4ad9;
   cursor: pointer;
 }
+.arrow{
+  height: 1cm;
+  width: 1cm;
+  margin-top: 0.1cm;
+}
+

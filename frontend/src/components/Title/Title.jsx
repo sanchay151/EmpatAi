@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./Title.module.css";
-import chatbot from "../../assets/robot.png";
-
+import chatbotbanner1 from "../../assets/chatbotbanner1.png"
 const Title = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.left}>
           <div className={styles.image}>
-            <img src={chatbot} alt="AI" />
+            <img src={chatbotbanner1} alt="AI" />
           </div>
           <p>Jessie</p>
         </div>

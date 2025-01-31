@@ -1,9 +1,8 @@
-/* 
-font-family: 'Castoro', serif;
-font-family: 'Chakra Petch', sans-serif;
-font-family: 'Orbitron', sans-serif;
-font-family: 'Ubuntu Mono', monospace; 
-*/
+/* Title.module.css */
+
+.container {
+  width: 100%;
+}
 
 .header {
   display: flex;
@@ -16,13 +15,13 @@ font-family: 'Ubuntu Mono', monospace;
 
 .header .left {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
 }
 
 .header .left .image {
-  height: 45px;
-  width: 45px;
+  height: 60px; /* Increased size from 45px */
+  width: 60px; /* Increased size from 45px */
   border-radius: 50%;
 }
 
@@ -33,7 +32,7 @@ font-family: 'Ubuntu Mono', monospace;
 }
 
 .header .left p {
-  font-size: 26px;
+  font-size: 24px; /* Adjusted font size for better balance */
   font-weight: 600;
   color: #046cf1;
   letter-spacing: 1px;
