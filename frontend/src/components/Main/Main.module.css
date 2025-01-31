@@ -18,7 +18,7 @@ font-family: 'Ubuntu Mono', monospace;
 .heading {
   font-weight: 500;
   font-size: 2.1rem;
-  font-family: "Archivo", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #046cf1;
 }
 
@@ -57,14 +57,14 @@ font-family: 'Ubuntu Mono', monospace;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   font-weight: lighter;
 }
 
 .cardTitle {
   color: #046cf1;
-  font-family: "Archivo", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .explore .btn {
@@ -79,7 +79,7 @@ font-family: 'Ubuntu Mono', monospace;
   outline: none;
   cursor: pointer;
   border-radius: 7px;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .explore .btn:hover {

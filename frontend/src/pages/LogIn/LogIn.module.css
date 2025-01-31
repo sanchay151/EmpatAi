@@ -34,7 +34,7 @@ font-family: 'Ubuntu Mono', monospace;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer {
@@ -62,7 +62,7 @@ font-family: 'Ubuntu Mono', monospace;
   width: 100%;
   transition: 100ms;
   cursor: pointer;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer button:disabled {

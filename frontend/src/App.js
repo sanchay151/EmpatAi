@@ -7,7 +7,6 @@ import LogIn from "./pages/LogIn/LogIn";
 import { auth } from "./firebase";
 import Home from "./pages/Home/Home";
 import { ThreeCircles } from "react-loader-spinner";
-import ContactUs from "./pages/ContactUs/ContactUs";
 
 function App() {
   const [userName, setUserName] = useState("");
@@ -49,7 +48,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/chatbox" element={<ChatBox name={userName} />} />
-            <Route path="/contactus" element={<ContactUs />} />
           </Routes>
         </Router>
       )}
