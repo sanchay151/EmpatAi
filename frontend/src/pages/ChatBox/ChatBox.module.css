@@ -6,9 +6,7 @@ font-family: 'Ubuntu Mono', monospace;
 */
 
 .main {
-  padding: 30px;
-  background-image: url(../../assets/background3.jpg);
-  background-size: cover;
+  padding: 0px;
 }
 
 .loadcontainer {
@@ -20,15 +18,13 @@ font-family: 'Ubuntu Mono', monospace;
 
 .container {
   margin: 0 auto;
-  height: calc(100vh - 60px);
-  width: 100%;
-  max-width: 1100px;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .container .header {
