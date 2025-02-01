@@ -18,16 +18,9 @@ const Main = forwardRef((props, ref) => {
               <img src={ConversationalImg} alt="Conversational AI" />
             </div>
             <div className={styles.text}>
-              <h1 className={styles.cardTitle}>Open AI Powered</h1>
+              <h1 className={styles.cardTitle}>Gemini AI Powered</h1>
               <p>
-                IntelliChat is an Open AI-powered chatbot based on
-                text-davinci-003 that leverages the capabilities of GPT-3,
-                specifically the Davinci variant. With a vast knowledge base,
-                contextual understanding, and natural language processing
-                capabilities, this chatbot excels at engaging in human-like
-                conversations. The text-davinci-003 model offers enhanced language
-                generation abilities, enabling it to provide more detailed and
-                nuanced responses.
+              EmpatAI is an AI-powered chatbot based on Gemini's 1.5 Flash model that leverages advanced capabilities in natural language processing. With a vast knowledge base, contextual understanding, and sophisticated language generation abilities, this chatbot excels at engaging in human-like conversations. The Gemini 1.5 Flash model offers enhanced performance, enabling EmpatAI to provide more detailed, nuanced, and empathetic responses.
               </p>
             </div>
           </div>
@@ -38,12 +31,7 @@ const Main = forwardRef((props, ref) => {
             <div className={styles.text}>
               <h1 className={styles.cardTitle}>Conversational ChatBot</h1>
               <p>
-                IntelliChat is a conversational AI chatbot designed to engage in
-                dynamic and interactive conversations. It exhibits exceptional
-                natural language understanding and generation capabilities,
-                enabling it to respond to user queries, hold meaningful
-                discussions, and provide valuable information. Moreover, it provides
-                a refined level of response consistency with reduced randomness.
+              EmpatAI is a conversational AI chatbot designed to engage in dynamic and interactive conversations. At its core is Jessie, an advanced AI assistant that exhibits exceptional natural language understanding and generation capabilities. Jessie can respond to user queries, hold meaningful discussions, and provide valuable information with a refined level of response consistency and reduced randomness.
               </p>
             </div>
           </div>
@@ -54,12 +42,7 @@ const Main = forwardRef((props, ref) => {
             <div className={styles.text}>
               <h1 className={styles.cardTitle}>Responsive & Clean UI</h1>
               <p>
-                IntelliChat is also accompanied by a clean and responsive user
-                interface (UI). The UI is designed to provide a seamless and
-                intuitive user experience, allowing users to interact with the
-                chatbot effortlessly. The responsive nature of the UI ensures that
-                the chatbot adapts well to different screen sizes and devices,
-                providing a consistent experience across platforms.
+              EmpatAI is a conversational AI chatbot designed to engage in dynamic and interactive conversations. At its core is Jessie, an advanced AI assistant that exhibits exceptional natural language understanding and generation capabilities. Jessie can respond to user queries, hold meaningful discussions, and provide valuable information with a refined level of response consistency and reduced randomness.
               </p>
             </div>
           </div>

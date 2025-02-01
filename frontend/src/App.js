@@ -23,6 +23,9 @@ function App() {
       }
     });
   }, []);
+  useEffect(() => {
+    document.title = "EmpatAI";
+  }, []);
 
   return (
     <div className={styles.App}>
